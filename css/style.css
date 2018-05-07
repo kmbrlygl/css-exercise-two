@@ -1,31 +1,48 @@
+/* general styles */
 body {
   background-color: #fff;
   color: #1C1836;
   font-size: 18px;
   line-height: 1.5em;
 }
-nav a {
-  text-decoration: none;
-  color: #fff;
+
+article {
+  padding-top: 100px;
 }
-nav a:hover {
-  text-decoration: underline;
-}
+
 figcaption {
   font-size: .875em;
 }
 
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
+
+/* navigation */
 nav {
   background-color: rgba(28,24,54,.5);
   float: left;
   position: fixed;
   width: 100%;
 }
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* typography */
 h1 {
   font-size: 2em;
   font-weight: 700;
   line-height: 2em;
 }
+
 h3 {
   font-size: 1.5em;
   font-style: italic;
@@ -33,6 +50,15 @@ h3 {
   color: #5A4586;
 }
 
+p {
+  margin: .6em 0;
+}
+
+p .author {
+  text-transform: uppercase;
+}
+
+/* images */
 .logo {
   margin: 20px;
   width: 100px;
@@ -63,19 +89,4 @@ ul {
 li {
   float: right;
   padding: 30px;
-}
-
-article {
-  padding-top: 100px;
-}
-
-.container {
-  margin: 0 auto;
-  width: 50%;
-}
-p {
-  margin: .6em 0;
-}
-.author {
-  text-transform: uppercase;
 }
